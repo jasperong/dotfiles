@@ -1,0 +1,121 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.tabCompletion": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  "window.zoomLevel": -1,
+  "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "workbench.colorTheme": "Monokai Pro (Filter Machine)",
+  "editor.fontFamily": "Operator Mono Lig, Consolas, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "100",
+  "editor.renderWhitespace": "all",
+  "editor.fontSize": 14,
+  "extensions.ignoreRecommendations": false,
+  "editor.minimap.enabled": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "files.trimTrailingWhitespace": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "jsx-sublime-babel-tags": "javascriptreact"
+  },
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "vscode_custom_css.imports": ["/Volumes/Macintosh HD/Users/jasper/.vscodestyles.css"],
+  "vscode_custom_css.policy": true,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true
+  },
+  "workbench.iconTheme": "Monokai Pro (Filter Machine) Icons",
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#E57373",
+    "list.activeSelectionForeground": "#E57373",
+    "list.inactiveSelectionForeground": "#E57373",
+    "list.highlightForeground": "#E57373",
+    "scrollbarSlider.activeBackground": "#E5737350",
+    "editorSuggestWidget.highlightForeground": "#E57373",
+    "textLink.foreground": "#E57373",
+    "progressBar.background": "#E57373",
+    "pickerGroup.foreground": "#E57373",
+    "tab.activeBorder": "#E57373",
+    "notificationLink.foreground": "#E57373"
+  },
+  "materialTheme.cache.workbench.settings": {
+    "accent": "Red",
+    "themeColours": "Darker High Contrast"
+  },
+  "[erb]": {},
+  "gitlens.historyExplorer.enabled": true,
+  "todohighlight.isEnable": true,
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": true,
+  "materialTheme.fixIconsRunning": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          //following will be in italic (=FlottFlott)
+          "comment",
+          "entity.name.type.class", //class names
+          "keyword", //import, export, return…
+          "constant.language", //String, Number, Boolean…, this, super
+          "storage.modifier", //static keyword
+          "storage.type.class.js", //class keyword
+          "variable.language",
+          "entity.other.attribute-name"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": [
+          //following will be excluded from italics (VSCode has some defaults for italics)
+          "invalid",
+          "keyword.operator",
+          "constant.numeric.css",
+          "keyword.other.unit.px.css",
+          "constant.numeric.decimal.js",
+          "constant.numeric.json"
+        ],
+        "settings": {
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+  "ruby.format": "rubocop",
+  "ruby.rubocop.executePath": "/Users/jasper/.rbenv/shims/",
+  "ruby.rubocop.configFilePath": "/Users/jasper/Code/autzu/autzu-api/.rubocop.yml",
+  "breadcrumbs.enabled": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/bower_components": true,
+    "**/jspm_packages": true,
+    "**/node_modules": true
+  },
+  "files.useExperimentalFileWatcher": false,
+  "gitlens.views.fileHistory.enabled": true,
+  "gitlens.views.lineHistory.enabled": true
+}
+
